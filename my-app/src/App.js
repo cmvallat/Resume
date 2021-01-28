@@ -46,7 +46,6 @@ function App() {
       <h3><i class="fa fa-graduation-cap"></i>Education</h3>
       <ul>
         <li><span>Bachelor of Science Computer Science</span><small>University of North Carolina at Chapel Hill</small><small>2017 - 2021</small></li>
-        <li><span>Physics and Astronomy Minors</span></li>
         <li><span>Couchell Scholarship for Academic Excellence</span><small>Recipient</small></li>
       </ul>
     </div>
@@ -83,7 +82,7 @@ function App() {
             <div class="bar"></div>
           </div>
         </li>
-        <li data-percent="40"><span>SQL</span>
+        <li data-percent="40"><span><a href="https://github.com/ach1lles11/Chic-Fil-A-Database">SQL</a></span>
           <div class="skills-bar">
             <div class="bar"></div>
           </div>
@@ -91,31 +90,25 @@ function App() {
       </ul>
     </div>
     <div class="skills-soft">
-      <h3><i class="fas fa-bezier-curve"></i>Software Skills</h3>
+      <h3><i class="fas fa-bezier-curve"></i>Databases</h3>
       <ul>
         <li data-percent="90">
           <svg viewbox="0 0 100 100">
             <circle cx="50" cy="50" r="45"></circle>
             <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Illustrator</span><small></small>
+          </svg><span>SQL</span><small></small>
         </li>
         <li data-percent="75">
           <svg viewbox="0 0 100 100">
             <circle cx="50" cy="50" r="45"></circle>
             <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Photoshop</span><small></small>
+          </svg><span>Oracle</span><small></small>
         </li>
         <li data-percent="85">
           <svg viewbox="0 0 100 100">
             <circle cx="50" cy="50" r="45"></circle>
             <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>InDesign</span><small></small>
-        </li>
-        <li data-percent="65">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Dreamweaver</span><small></small>
+          </svg><span>Firebase (NoSQL)</span><small></small>
         </li>
       </ul>
     </div>
