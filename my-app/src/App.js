@@ -14,13 +14,17 @@ function App() {
       </div>
     </div>
     <div class="about">
-      <h3>About Me</h3>I'm a second semester senior at the University of North Carolina at Chapel Hill. 
+      <h3>About Me</h3>I'm currently a web development team lead at Prometheus Group in Raleigh, NC. 
     </div>
     <div class="contact">
       <h3>Contact Me</h3>
-      <div class="email"><a href="mailto:nag11@live.unc.edu"><i class="fas fa-envelope"></i><span>Email</span></a></div>
-      <div class="website"><a href="https://github.com/ach1lles11" target="_blank"> <i class="fas fa-home"></i><span>GitHub</span></a></div>
-      <div class="email"><a href="https://www.linkedin.com/in/nicholas-georgiou-45b8151b5/"><i class="fas fa-envelope"></i><span>LinkedIn</span></a></div>
+      <div class="email"><a href="mailto:nicholasgeorgiou11@gmail.com"><i class="fas fa-envelope"></i><span>Email</span></a></div>
+      <div class="website"><a href="https://github.com/ach1lles11"> <i class="fas fa-home"></i><span>GitHub</span></a></div>
+      <div class="website"><a href="https://www.linkedin.com/in/nicholas-georgiou-45b8151b5/"><i class="fas fa-envelope"></i><span>LinkedIn</span></a></div>
+    </div>
+    <div class="contact">
+      <h3>Projects</h3>
+      <div class="website"><a href="https://ach1lles11.github.io/BeInformedNC/"> <i class="fas fa-home"></i><span>BeInformedNC</span></a></div>
     </div>
     {/* <div class="follow">
       <h3>Follow Me</h3>
@@ -36,10 +40,10 @@ function App() {
   </div>
   <div class="func">
     <div class="work">
-      <h3><i class="fa fa-briefcase"></i>Project Experience</h3>
+      <h3><i class="fa fa-briefcase"></i>Work Experience</h3>
       <ul>
-        <li><span>Krackle Consulting Group -Web Developer</span><small>UNC Chapel HillF</small><small>June 2020 - Present</small></li>
-        <li><span>Hack NC- "Most Innovative" Award</span><small>Hack NC</small><small>Jan 2018 - Apr 2018</small></li>
+        <li><span>Web Development Team Lead</span><small>Prometheus Group</small><small>July 2021 - Present</small></li>
+        <li><span>Krackle Consulting Group- Web Developer</span><small>University of North Carolina at Chapel Hill</small><small>June 2020 - May 2021</small></li>        
       </ul>
     </div>
     <div class="edu">
@@ -52,39 +56,34 @@ function App() {
     <div class="skills-prog">
       <h3><i class="fas fa-code"></i>Programming Skills</h3>
       <ul>
-        <li data-percent="95"><span>JavaScript</span>
+        <li><span>TypeScript</span>
           <div class="skills-bar">
-            <div class="bar"></div>
+            <div class="bar" style={{width:'90%'}}></div>
           </div>
         </li>
-        <li data-percent="90"><span>TypeScript</span>
+        <li><span>Java</span>
           <div class="skills-bar">
-            <div class="bar"></div>
+            <div class="bar" style={{width:'80%'}}></div>
           </div>
         </li>
-        <li data-percent="60"><span>Java</span>
+        <li><span>JavaScript</span>
           <div class="skills-bar">
-            <div class="bar"></div>
+            <div class="bar" style={{width:'75%'}}></div>
           </div>
         </li>
-        <li data-percent="50"><span>Python</span>
+        <li><span>Python</span>
           <div class="skills-bar">
-            <div class="bar"></div>
+            <div class="bar" style={{width:'50%'}}></div>
           </div>
         </li>
-        <li data-percent="40"><span>MatLab</span>
+        <li><span>MatLab</span>
           <div class="skills-bar">
-            <div class="bar"></div>
+            <div class="bar" style={{width:'45%'}}></div>
           </div>
         </li>
-        <li data-percent="55"><span>C++</span>
+        <li><span>C++</span>
           <div class="skills-bar">
-            <div class="bar"></div>
-          </div>
-        </li>
-        <li data-percent="40"><span><a href="https://github.com/ach1lles11/Chic-Fil-A-Database">SQL</a></span>
-          <div class="skills-bar">
-            <div class="bar"></div>
+            <div class="bar" style={{width:'30%'}}></div>
           </div>
         </li>
       </ul>
@@ -94,7 +93,7 @@ function App() {
       <ul>
         <li data-percent="90">
           <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
+            <circle cx="50" cy="50" r="45" style={{width:'50%'}}></circle>
             <circle class="cbar" cx="50" cy="50" r="45"></circle>
           </svg><span>SQL</span><small></small>
         </li>
